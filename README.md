@@ -4,8 +4,6 @@
     </a>
 </p>
 
-Solutions are coded using Java 8
-
 # Java
 
 |          Subdomain          |                                                         Challenge                                                        | Points |                                                                                         Solution                                                                                        |
