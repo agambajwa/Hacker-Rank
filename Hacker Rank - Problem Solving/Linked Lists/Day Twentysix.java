@@ -26,6 +26,7 @@ public class Solution {
             fine = 0;
         } else if (returnDate.getMonth() == dueDate.getMonth() && returnDate.getYear() == dueDate.getYear()) {
             fine = 15 * (returnDate.getDayOfMonth() - dueDate.getDayOfMonth());
+        } else if (returnDate.getYear() == dueDate.getYear()) {
             fine = 500 * (returnDate.getMonthValue() - dueDate.getMonthValue());
         } else {
             fine = 10000;
