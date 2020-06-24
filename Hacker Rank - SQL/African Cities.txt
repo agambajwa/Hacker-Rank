@@ -1,0 +1,1 @@
+SELECT City.Name FROM City, Country WHERE City.Countrycode = Country.code AND Country.Continent = 'Africa';
